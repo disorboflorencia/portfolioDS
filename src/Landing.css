@@ -1,0 +1,138 @@
+.bg {
+	
+    animation:slide 7s ease-in-out alternate;
+    background-image: linear-gradient(-60deg, white 50%, #2C2C37 55%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+    animation-iteration-count: 1;
+    animation-fill-mode:both;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:6s;
+  }
+  
+  .bg3 {
+    animation-duration:8s;
+  }
+  
+  .content {
+    left:50%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+    color: white;
+  }
+  
+  svg {
+    width: 20vw;
+
+  }
+  #logoLanding {
+    fill: #CACACC;
+    filter: drop-shadow( 15px 15px 20px rgba(119, 119, 126, 0.5));
+    background: #F8F8F8; 
+
+  }
+
+  .logo1 {
+    animation: shadow 5s ease;  
+
+  }
+
+  @keyframes shadow {
+      50% {box-shadow: 0 5px 15px rgba(0,0,0,0.3)};
+  }
+   
+
+
+  
+/*------------------FADE-OUT-----------------------------*/  
+    .fade-Out {
+        animation-name: fadeOut ease 9s ;
+        -webkit-animation: fadeOut ease 9s;
+    }
+
+
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
+
+  @keyframes fadeOut {
+    0% {opacity: 1;}
+    90% {opacity: 1;}
+    100% {opacity: 0;} 
+ } 
+
+
+ /*--------------------------FADE-IN---------------------*/
+
+ .fade-in {
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+    -ms-animation: fadeIn ease 1s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  } }
+
+  @media (max-width: 767px) {
+    svg {
+      width: 60vw;
+    }
+  }
