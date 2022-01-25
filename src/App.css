@@ -213,8 +213,6 @@ h2 {
   display: flex;
 }
 
-
-
 .main{
   display: flex;
   flex-direction: row-reverse;
@@ -237,6 +235,10 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.link {
+  border-bottom: black 3px solid;
 }
 
 .gmail {
@@ -506,6 +508,22 @@ h2 {
   width: 101%;
 }
 
+.gifContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gifsBig {
+  max-width: 65%;
+}
+
+.gifs{
+  display: flex;
+  max-width: 35%;
+}
+
 @media  (max-width: 767px) {
   .cardsContainer {
     width: 95vw;
@@ -544,6 +562,17 @@ h2 {
 
   .free {
     padding: 0px;
+  }
+
+  .gifContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  
+  .gifs{
+    max-width: 85%;
   }
 }
 

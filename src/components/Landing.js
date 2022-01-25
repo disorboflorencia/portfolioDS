@@ -11,7 +11,7 @@ const Landing = () => {
 
     setTimeout(() => {
         history.push('/who')
-        }, 9000)
+        }, 4000)
 
     return (
         <div className="fade-Out">

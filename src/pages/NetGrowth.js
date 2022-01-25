@@ -17,6 +17,10 @@ const NetGrowthApp = () => {
             <p>
             NetWorth’s primary target users include young adults who want to learn about business and entrepreneurship and seasoned founders who want to stay updated on the entrepreneurial ecosystem.  
             </p>
+            <div className='gifContainer'>
+                <img class="gifs" src="../proyects/networthgif1.gif" alt="mainideation"/>
+                <img class="gifs" src="../proyects/networthgif2.gif" alt="mainideation"/>
+            </div> 
             <h3>The problem : </h3>
             <p>
             21.5% of startups fail in the first year, 30% in the second year, 50% in the fifth year, and 70% in their 10th year, making it so that the failure rate of startups is around 90%. 

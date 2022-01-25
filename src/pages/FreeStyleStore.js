@@ -8,11 +8,14 @@ const FreeStyleStore = () => {
             <Project 
             title="The FreeStyle Store"
             intro={<Fragment>
-                This UX Design project allowed me to explore the marketplace's niche and the creation process from a specific user focus. The FreeStyle Store is a merchandise marketplace where freestyle fans can feel at home. 
+                This UX Design project allowed me to explore the marketplace's niche and the creation process from a specific user focus. <br></br>The FreeStyle Store is a merchandise marketplace where freestyle fans can feel at home. 
             </Fragment>}
             description={<Fragment>
             <h3>The product : </h3>
             <p>The FreeStyle Store is a digital marketplace that offers exclusive merchandise and Special Collections co-created with the biggest stars of the freestyle contemporary scene.   </p>
+            <div className='gifContainer'>
+                <img className="gifsBig" src="../proyects/Rapmerchsite/freegif4.gif" alt="mainideation"/>
+            </div> 
             <h3>My role : </h3>
             <p>UX Designer designing the FreeStyle Store website from ideation and conceptualization to delivery.</p>
             <h3>User Research :</h3>
@@ -48,6 +51,9 @@ const FreeStyleStore = () => {
             <p>Following the usability study, and taking into account the two Priority 0 (P0) insights, I designed the mockups for the main user flow.</p>
             <img class="projects" src="../proyects/Rapmerchsite/Rkeymockups.png" alt="mainideation"/> 
             <img class="projects" src="../proyects/Rapmerchsite/Rkeymockups2.png" alt="mainideation"/> 
+            <div className='gifContainer'>
+                <img class="gifsBig" src="../proyects/Rapmerchsite/freegif3.gif" alt="mainideation"/>
+            </div> 
             <h3>Key Mockups - Screen Size Variations :</h3>
             <img class="projects" src="../proyects/Rapmerchsite/Rkwymockupsres.png" alt="mainideation"/>
             <h3>Takeaways :</h3>

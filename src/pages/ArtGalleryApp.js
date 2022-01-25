@@ -12,6 +12,10 @@ const ArtGalleryApp = () => {
             description={<Fragment>
             <p>This mock-up project was the perfect excuse for getting to explore in depth and analyze the digital art market and the different marketplace platforms that are growing in the sector. I deeply enjoyed this process since it is one of my biggest intrerests right now, the space where Art and Technology merge together thanks to blockchain software.   
             </p>
+            <div className='gifContainer'>
+                <img class="gifs" src="../proyects/AGA/artgallerygif1.gif" alt="mainideation"/>
+                <img class="gifs" src="../proyects/AGA/artgallerygif2.gif" alt="mainideation"/>
+            </div>
             <h3>The product : </h3>
             <p>The Art Gallery App is a digital gallery that presents all sorts of art pieces for sale or auction.</p>
             <p>It is also the go-to place for everyone interested in the art world and the art market, filled with relevant information and community experience.</p>
@@ -41,6 +45,10 @@ const ArtGalleryApp = () => {
             <img class="projects" src="../proyects/AGA/AGAmockups.png" alt="mainideation"/>
             <p>Early designs focused on displaying a lot of information, but after the usability studies, I added a more direct access for the main features of the app.</p>
             <p>Usability studies also revealed frustration with the purchase flow, so I added the different payment methods to this screen. </p>
+            <div className='gifContainer'>
+                <img class="gifs" src="../proyects/AGA/artgallerygif3.gif" alt="mainideation"/>
+                <img class="gifs" src="../proyects/AGA/artgallerygif5.gif" alt="mainideation"/>
+            </div> 
             <h3>Accessibility considerations :</h3>
             <img class="projects" src="../proyects/AGA/AGAaccess.png" alt="mainideation"/>
             <h3>Takeaways :</h3>
@@ -50,6 +58,7 @@ const ArtGalleryApp = () => {
             <h4>Learnings</h4>
             <p>While designing the Art Gallery app, I learned that every step of the process is equally important and influential in the final result. </p>
             <p>From the first ideas, to usability studies and receiving peer feedback, I could see the enrichment on each iteration of the app’s designs.</p>
+            
             <h3>Next steps :</h3>
             <img class="projects" src="../proyects/AGA/AGAnextst.svg" alt="mainideation"/>
             <p><i>Thank you for your time !</i></p>

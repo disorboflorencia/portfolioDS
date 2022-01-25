@@ -8,7 +8,7 @@ const What = () => {
 
     return (
         <div className="whatContainer fade-in">
-            <h2 className="h2B">Recent projects : </h2>
+            <h2 className="h2B">Recent UX Design projects:  </h2>
             <div className="cardsContainer">
                {/* <Card
                     page= "/what/Mutua"
