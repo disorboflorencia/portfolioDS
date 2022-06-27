@@ -4,7 +4,7 @@ import "../Landing.css"
 const Else = () => {
     return (
         <div className="elseContainer fade-in">
-            <p>🎨 Here is a selection of the visual pieces I made over the past years</p>
+            <p>🎨 Here are some of the visual pieces I made over the past years</p>
             <h2 className="h2B">Photography</h2>
             <div className="photographyContainer">
 
